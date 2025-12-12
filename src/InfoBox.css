@@ -1,0 +1,19 @@
+.info-box {
+    padding: 25px;
+    border-radius: 16px;
+    background: white;
+    color: #333;
+    text-align: center;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    font-family: "Poppins", sans-serif;
+}
+
+.info-box h2 {
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+}
+
+.info-box .details {
+    font-size: 1rem;
+    opacity: 0.75;
+}

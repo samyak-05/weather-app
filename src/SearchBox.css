@@ -1,0 +1,29 @@
+.search-box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Form layout */
+.search-box form {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+/* Submit button (non-MUI) */
+.search-box button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background: #4a90e2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.2s;
+}
+
+.search-box button:hover {
+    background: #6eb0ff;
+}
