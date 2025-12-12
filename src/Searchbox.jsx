@@ -57,7 +57,7 @@ export default function SearchBox({ updateWeatherInfo }) {
             <form onSubmit={handleSubmit}>
                 <TextField id="outlined-basic" label="City Name" variant="outlined" required value={city} onChange={handleChange} />
                 <br /><br />
-                <Button variant="outlined" type="submit">SUBMIT</Button>
+                <Button variant="outlined" type="submit">Search</Button>
                 {error && <p style={{ color: "red" }}> No such place in API!</p>}
             </form>
         </div>
